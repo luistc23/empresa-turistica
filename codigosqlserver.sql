@@ -86,9 +86,9 @@ END
 EXECUTE PA_INSERTAR_ASISTENCIA 1, 1;
 EXECUTE PA_INSERTAR_ASISTENCIA 1, 2;
 EXECUTE PA_INSERTAR_ASISTENCIA 1, 3;
---esta no deberia dejar insertar
+--esta no deberia dejar insertar porq solo pusimos que puedan asisir 3 personas
 EXECUTE PA_INSERTAR_ASISTENCIA 1, 4;
---estos no se pueden insertar
+--estos no se pueden insertar porq el tour esta inactivo
 EXECUTE PA_INSERTAR_ASISTENCIA 2, 1;
 EXECUTE PA_INSERTAR_ASISTENCIA 2, 2;
 EXECUTE PA_INSERTAR_ASISTENCIA 2, 3;
